@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(213, 228, 170)
+}
+
+.container {
+    display: flex;
+    background-color: rgb(224, 149, 149);
+    font-size: 30px;
+    justify-content: space-around; 
+    align-items: center;
+}
+.container > div {
+    color: rgb(148, 0, 148);
+    font-size: 30px;
+} 
+
+@media (max-width: 1200px) {
+    .container > div {
+    color: aliceblue;
+    }
+}
